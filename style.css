@@ -1,0 +1,187 @@
+body {
+    background-color: #f5eee6;
+    color: #3e2c23;
+}
+
+nav {
+    background-color: #e8d5c4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 25px;
+    padding: 10px;
+}
+
+nav p{
+    font-size: 15px;
+    margin: 0;
+    font-family: georgia, serif;   
+}
+
+nav a{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:  #3e2c23;
+    text-decoration: none;
+}
+
+nav a:hover{
+    color: #8b5e3c;
+}
+
+h3{
+    font-size: 28px;
+    max-width: 1100px;
+    margin: 40px auto 15px auto;
+}
+
+.home-content{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    background-color: #fffaf5;
+    padding: 40px;
+    border-radius: 20px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.home-content img{
+    width: 150px;
+    height: auto;
+    border-radius: 15px;
+}
+
+.home-text{
+    flex: 1;
+}
+
+.home-content p{
+    line-height: 1.6;
+}
+
+.home-text h4{
+    font-size: 32px;
+    margin: 0 0 20px 0;
+    font-weight: normal;
+}
+
+.home-text p{
+    line-height: 1.6;
+    margin: 0;
+}
+
+.About-final{
+    display: flex;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.About-biodata,
+.About-box {
+    flex: 1;
+    background-color: #fffaf5;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+.About-biodata h4,
+.About-box h4 {
+    font-size: 20px;
+    margin-top: 0;
+}
+
+.About-biodata {
+    line-height: 1.8;
+}
+
+.About-box p {
+    line-height: 1.7;
+    margin: 0;
+}
+
+.Motivation-box {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 30px 40px;
+    background-color: #fffaf5;
+    border-radius: 20px;
+}
+
+.Motivation-box blockquote {
+    text-align: center;
+    font-family: Georgia, serif;
+    font-style: italic;
+    font-size: 20px;
+    margin: 15px 0 25px 0;
+}
+
+.Motivation-box p {
+    line-height: 1.7;
+    text-align: justify;
+    margin: 0;
+}
+
+/*css untuk education*/
+.Education-final{
+    display: flex;
+    gap: 30px;
+    max-width: 1100px;
+    margin: 20px auto;
+}
+
+.Education-kuliah,
+.Education-sma{
+    flex: 1;
+    background-color: #fffaf5;
+    border-radius: 20px;
+    padding: 30px;
+}
+
+.Education-final h4{
+    font-size: 20px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.Education-final p{
+    margin: 0 0 10px 0;
+    line-height: 1.6;
+}
+.Education-final span{
+    font-size: 14px;
+    font-style: italic;
+}
+/*css untuk sosmed*/
+.Sosmed-final{
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 30px;
+    background-color: #fffaf5;
+    border-radius: 20px;
+}
+.Sosmed-final p{
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+.Sosmed-final a{
+    color: #8b5e3c;
+    text-decoration: none;
+    font-weight: bold;
+}
+.Sosmed-final a:hover{
+    color: #3e2c23;
+}
+
+/*selektor yang bertentangan*/
+p{
+    color: #8b5e3c;
+}
+
+.About-box p{
+    color: #3e2c23;
+}
+#spesial_text{
+    color:  #a0522d;
+}
